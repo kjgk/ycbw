@@ -18,7 +18,7 @@ module.exports = (grunt) ->
     
     # configurable paths
     yeomanConfig =
-        app: "client"
+        app: "src"
         dist: "dist"
 
     try
