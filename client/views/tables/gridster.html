@@ -1,0 +1,11 @@
+<div data-ng-controller="gridsterCtrl">
+
+    <label ng-click="toogleFloating()" class="label label-info">toogleFloating</label>
+    <label ng-click="tooglePushing()" class="label label-info">tooglePushing</label>
+
+    <div data-gridster="gridsterOpts">
+        <ul>
+            <li  style="background-color: #008050; " data-gridster-item="item" ng-repeat="item in standardItems"></li>
+        </ul>
+    </div>
+</div>
